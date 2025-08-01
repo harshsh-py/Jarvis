@@ -1,12 +1,23 @@
 import tkinter as tk
 from tkinter import ttk, scrolledtext
 import pyttsx3
+import speech_recognition as sr
 from PIL import Image, ImageTk
 import threading
-import Jarvis
 import os
 from datetime import datetime
 import time
+import cv2
+import wikipedia
+import webbrowser
+import pywhatkit as kit
+import smtplib
+from textblob import TextBlob
+import nltk
+from nltk.tokenize import word_tokenize
+from transformers import pipeline
+import sys
+from Jarvis import *  # Import all functions from Jarvis.py
 
 class JarvisGUI:
     def __init__(self, root):
