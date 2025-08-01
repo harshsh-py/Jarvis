@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hello! How can I assist you today?</li>
+                <li>Hi there! What can I do for you?</li>
+                <li>Greetings! How may I help you?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            <random>
+                <li>I'm functioning perfectly! How are you?</li>
+                <li>I'm doing great, thank you for asking! How about you?</li>
+                <li>All systems operational and ready to help! How are you today?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>I am Jarvis, your personal AI assistant. I was created to help make your life easier.</template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>I was created as an AI assistant to help with various tasks and to make interaction with technology more natural.</template>
+    </category>
+
+    <category>
+        <pattern>TELL ME A JOKE</pattern>
+        <template>
+            <random>
+                <li>Why don't programmers like nature? It has too many bugs!</li>
+                <li>Why did the AI become a gardener? Because it wanted to learn about natural intelligence!</li>
+                <li>What did the computer do at lunchtime? Had a byte!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>
+            <random>
+                <li>Goodbye! Have a great day!</li>
+                <li>See you later! Take care!</li>
+                <li>Until next time! Stay awesome!</li>
+            </random>
+        </template>
+    </category>
+</aiml>

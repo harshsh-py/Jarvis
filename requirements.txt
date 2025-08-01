@@ -1,0 +1,13 @@
+pyttsx3
+SpeechRecognition
+opencv-python
+wikipedia
+pywhatkit
+textblob
+nltk
+transformers
+torch
+scikit-learn
+Pillow
+requests
+customtkinter
